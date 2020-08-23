@@ -16,6 +16,14 @@
     font-size: 25px;
 }
 
+.chose {
+    padding-right: 0px;
+    margin-left: 15 px;
+    font-family: 'Tele2 displayserif', sans-serif;
+    font-size: 15px;
+}
+
+
 .con-tainer {
     -o-object-fit: fill;
     object-fit: fill;
@@ -89,8 +97,10 @@
 }
 
 form {
-margin: 20px;
+margin-bottom: 10px;
 }
+
+
 
 @media screen and (max-width: 991px) {
     .text-block {
@@ -122,7 +132,7 @@ margin: 20px;
 
 @media screen and (max-width: 767px) {
     .heading {
-        padding-left: 26px;
+        padding-left: 10spx;
     }
     .text-block {
         padding-left: 0px;
@@ -146,6 +156,18 @@ margin: 20px;
         -o-object-fit: fill;
         object-fit: fill;
     }
+
+    .submit-button {
+        text-align: center;
+        cursor: pointer;
+        display: inline-block;
+        background: #506CFB;
+        padding: 0;
+        border-width: 0;
+        text-transform: uppercase;
+    }
+
+
     .image-7 {
         position: -webkit-sticky;
         position: sticky;
