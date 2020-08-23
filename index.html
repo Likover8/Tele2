@@ -38,14 +38,14 @@
     </div>
 </div>
 <div class="container w-container">
-    <h2 class="heading-2">Подобрать выгодные условия по лицу ?</h2>
+    <h2 class="heading">Подобрать выгодные условия по лицу ?</h2>
+    <img class="heading" id="avatar" src="https://github.com/Likover8/Tele2/blob/master/uploads/image.jpg?raw=true"  style="max-width: 200px"/>
+    <p><a class="chose" href="#"  $('#upfile').trigger('click'); return false;"></a><span id="avatar-status" class="pull-right"></span></p>
+    <input type="file" name="upfile" id="upfile" style="display: none;" />
     <form action="create.php" method="post" enctype="multipart/form-data">
         <input type="file" name="image">
-        <button type="submit">Отправить</button>
+        <button class="submit-button" type="submit">Продолжить</button>
     </form>
-    <img src="uploads/image.jpg" style="border: thin solid #999999;" width="20%" height="20%" />
-    <p><a href="#" onclick="$('#avatar-uploader').trigger('click'); return false;">Change</a><span class="pull-right"></span></p>
-    <input type="file" name="avatar-uploader" id="avatar-uploader" style="display: none;" />
 </div>
 </body>
 </html>
